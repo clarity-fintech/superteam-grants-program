@@ -1,0 +1,241 @@
+{
+  "schema": "clrty.mis_repo/v1",
+  "creator": "Chandler William Ferguson",
+  "org": "clarity-fintech",
+  "repo": "superteam-grants-program",
+  "title": "Superteam Grants Program",
+  "domain": "superteam_grants",
+  "deep_root": {
+    "language": "moniversive",
+    "dialect": "mis-ml",
+    "extension": ".mis",
+    "language_root": "CLRTY_SUBSTRATE/boot/moniversive_language_root.json",
+    "settlement_network": "clrty-1",
+    "settlement_chain_id": 1202,
+    "embed_gates": "3..=6",
+    "letter_hash": "sha256-rolling-typed-letter/v1",
+    "compiler": "bin/misc"
+  },
+  "kernel": "mis/kernel/SuperteamGrantsProgramKernel.mis",
+  "backlink_index": "mis/backlinks/MisBacklinkIndex.mis",
+  "packs": [
+    {
+      "name": "GrantTrack",
+      "slug": "grant_track",
+      "band": "1..=20",
+      "module": "mis/packs/grant_track.mis",
+      "ids": [
+        "grant_track_001",
+        "grant_track_002",
+        "grant_track_003",
+        "grant_track_004",
+        "grant_track_005",
+        "grant_track_006",
+        "grant_track_007",
+        "grant_track_008",
+        "grant_track_009",
+        "grant_track_010",
+        "grant_track_011",
+        "grant_track_012",
+        "grant_track_013",
+        "grant_track_014",
+        "grant_track_015",
+        "grant_track_016",
+        "grant_track_017",
+        "grant_track_018",
+        "grant_track_019",
+        "grant_track_020"
+      ]
+    },
+    {
+      "name": "MilestoneEscrow",
+      "slug": "milestone_escrow",
+      "band": "21..=40",
+      "module": "mis/packs/milestone_escrow.mis",
+      "ids": [
+        "milestone_escrow_021",
+        "milestone_escrow_022",
+        "milestone_escrow_023",
+        "milestone_escrow_024",
+        "milestone_escrow_025",
+        "milestone_escrow_026",
+        "milestone_escrow_027",
+        "milestone_escrow_028",
+        "milestone_escrow_029",
+        "milestone_escrow_030",
+        "milestone_escrow_031",
+        "milestone_escrow_032",
+        "milestone_escrow_033",
+        "milestone_escrow_034",
+        "milestone_escrow_035",
+        "milestone_escrow_036",
+        "milestone_escrow_037",
+        "milestone_escrow_038",
+        "milestone_escrow_039",
+        "milestone_escrow_040"
+      ]
+    },
+    {
+      "name": "TreasuryDist",
+      "slug": "treasury_dist",
+      "band": "41..=60",
+      "module": "mis/packs/treasury_dist.mis",
+      "ids": [
+        "treasury_dist_041",
+        "treasury_dist_042",
+        "treasury_dist_043",
+        "treasury_dist_044",
+        "treasury_dist_045",
+        "treasury_dist_046",
+        "treasury_dist_047",
+        "treasury_dist_048",
+        "treasury_dist_049",
+        "treasury_dist_050",
+        "treasury_dist_051",
+        "treasury_dist_052",
+        "treasury_dist_053",
+        "treasury_dist_054",
+        "treasury_dist_055",
+        "treasury_dist_056",
+        "treasury_dist_057",
+        "treasury_dist_058",
+        "treasury_dist_059",
+        "treasury_dist_060"
+      ]
+    },
+    {
+      "name": "ReleaseGate",
+      "slug": "release_gate",
+      "band": "61..=80",
+      "module": "mis/packs/release_gate.mis",
+      "ids": [
+        "release_gate_061",
+        "release_gate_062",
+        "release_gate_063",
+        "release_gate_064",
+        "release_gate_065",
+        "release_gate_066",
+        "release_gate_067",
+        "release_gate_068",
+        "release_gate_069",
+        "release_gate_070",
+        "release_gate_071",
+        "release_gate_072",
+        "release_gate_073",
+        "release_gate_074",
+        "release_gate_075",
+        "release_gate_076",
+        "release_gate_077",
+        "release_gate_078",
+        "release_gate_079",
+        "release_gate_080"
+      ]
+    },
+    {
+      "name": "AuditTrail",
+      "slug": "audit_trail",
+      "band": "81..=100",
+      "module": "mis/packs/audit_trail.mis",
+      "ids": [
+        "audit_trail_081",
+        "audit_trail_082",
+        "audit_trail_083",
+        "audit_trail_084",
+        "audit_trail_085",
+        "audit_trail_086",
+        "audit_trail_087",
+        "audit_trail_088",
+        "audit_trail_089",
+        "audit_trail_090",
+        "audit_trail_091",
+        "audit_trail_092",
+        "audit_trail_093",
+        "audit_trail_094",
+        "audit_trail_095",
+        "audit_trail_096",
+        "audit_trail_097",
+        "audit_trail_098",
+        "audit_trail_099",
+        "audit_trail_100"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "name": "LanguageRoot",
+      "path": "CLRTY_SUBSTRATE/boot/moniversive_language_root.json"
+    },
+    {
+      "name": "MisCodeIndex",
+      "path": "CLRTY_SUBSTRATE/boot/mis_code_index.json"
+    },
+    {
+      "name": "MisEcosystemRepos",
+      "path": "CLRTY_SUBSTRATE/boot/mis_ecosystem_repos_manifest.json"
+    },
+    {
+      "name": "StaticMlCatalog",
+      "path": "CLRTY_SUBSTRATE/boot/clrty1_static_ml_invariants.json"
+    },
+    {
+      "name": "MisNativeKernels",
+      "path": "CLRTY_SUBSTRATE/boot/clrty1_mis_native_kernels_776_875.json"
+    },
+    {
+      "name": "MisArchitecture",
+      "path": "CLRTY_SUBSTRATE/boot/clrty1_mis_architecture_primitives_876_975.json"
+    },
+    {
+      "name": "MisChainIntake",
+      "path": "CLRTY_SUBSTRATE/boot/clrty1_mis_chain_intake_976_1025.json"
+    },
+    {
+      "name": "GradientBand",
+      "path": "CLRTY_SUBSTRATE/boot/clrty1_gradient_invariants_201_300.json"
+    },
+    {
+      "name": "TickArchitecture",
+      "path": "CLRTY_SUBSTRATE/boot/clrty1_tick_architecture.json"
+    },
+    {
+      "name": "TickStakingGradient",
+      "path": "CLRTY_SUBSTRATE/boot/clrty1_tick_staking_gradient_propagation.json"
+    },
+    {
+      "name": "ProtocolStructures",
+      "path": "CLRTY_SUBSTRATE/boot/clrty1_protocol_structures_100.json"
+    },
+    {
+      "name": "MisKernelActiveOnly",
+      "path": "CLRTY_SUBSTRATE/boot/mis_kernel_active_only.json"
+    },
+    {
+      "name": "MisKernelSource",
+      "path": "moniversive/framework/mis_kernel.mis"
+    },
+    {
+      "name": "MisAllCodeIndex",
+      "path": "moniversive/framework/MisAllCodeIndex.mis"
+    },
+    {
+      "name": "MlKernelRepo",
+      "path": "https://github.com/clarity-fintech/moniversive_invariant_static_ML"
+    },
+    {
+      "name": "ClrtyMisKernelRepo",
+      "path": "https://github.com/clarity-fintech/CLRTY-MIS-Kernel"
+    },
+    {
+      "name": "MiscCompiler",
+      "path": "bin/misc"
+    }
+  ],
+  "clrty1": {
+    "network": "clrty-1",
+    "chain_id": 1202
+  },
+  "siblings": {
+    "static_ml": "https://github.com/clarity-fintech/moniversive_invariant_static_ML",
+    "mis_kernel": "https://github.com/clarity-fintech/CLRTY-MIS-Kernel"
+  }
+}

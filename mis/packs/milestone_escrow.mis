@@ -1,0 +1,176 @@
+// Moniversive Invariant Static (MIS) — deep root
+// Creator: Chandler William Ferguson
+// Letter-hash + EMBED gates 3..=6 · settlement clrty-1 / chain 1202
+// Compile: bin/misc <file>.mis --check --compact-letters
+// Title: Superteam Grants Program · MilestoneEscrow
+
+module SuperteamGrantsProgramMilestoneEscrow {
+
+  embed gates 3..=6 {
+    context: "MilestoneEscrow pack on MIS domain superteam_grants — CLRTY-1";
+    ai: "Index via mis_code_index + moniversive_invariant_static_ML";
+    execution: "assert_pack; assert_each; settle_clrty1";
+    capital: "Settlement clrty-1 / chain 1202 · Creator Chandler William Ferguson";
+  }
+
+  invariant letter_hash_bound: letter_hash_root != @0;
+  invariant embed_gates_present: embed_root != @0;
+  invariant deep_root_moniversive: deep_root == moniversive;
+  invariant settlement_chain: chain_id == 1202;
+  invariant settlement_network_clrty1: settlement_network == clrty_1;
+  invariant kernel_is_misc: compiler_kernel == misc;
+  invariant pack_milestone_escrow_bound: pack_bound == true;
+  invariant catalog_backlink: mis_catalog_bound == true;
+
+  invariant milestone_escrow_021: milestone_escrow_021_bound == true;
+  invariant milestone_escrow_022: milestone_escrow_022_bound == true;
+  invariant milestone_escrow_023: milestone_escrow_023_bound == true;
+  invariant milestone_escrow_024: milestone_escrow_024_bound == true;
+  invariant milestone_escrow_025: milestone_escrow_025_bound == true;
+  invariant milestone_escrow_026: milestone_escrow_026_bound == true;
+  invariant milestone_escrow_027: milestone_escrow_027_bound == true;
+  invariant milestone_escrow_028: milestone_escrow_028_bound == true;
+  invariant milestone_escrow_029: milestone_escrow_029_bound == true;
+  invariant milestone_escrow_030: milestone_escrow_030_bound == true;
+  invariant milestone_escrow_031: milestone_escrow_031_bound == true;
+  invariant milestone_escrow_032: milestone_escrow_032_bound == true;
+  invariant milestone_escrow_033: milestone_escrow_033_bound == true;
+  invariant milestone_escrow_034: milestone_escrow_034_bound == true;
+  invariant milestone_escrow_035: milestone_escrow_035_bound == true;
+  invariant milestone_escrow_036: milestone_escrow_036_bound == true;
+  invariant milestone_escrow_037: milestone_escrow_037_bound == true;
+  invariant milestone_escrow_038: milestone_escrow_038_bound == true;
+  invariant milestone_escrow_039: milestone_escrow_039_bound == true;
+  invariant milestone_escrow_040: milestone_escrow_040_bound == true;
+
+  outcome assert_pack(payload: Bytes) {
+    require payload != @0;
+    constraint pack_bound == true;
+  }
+
+  outcome settle_clrty1(intent: Bytes) {
+    require intent != @0;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_milestone_escrow_021(payload: Bytes) {
+    require payload != @0;
+    constraint milestone_escrow_021_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_milestone_escrow_022(payload: Bytes) {
+    require payload != @0;
+    constraint milestone_escrow_022_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_milestone_escrow_023(payload: Bytes) {
+    require payload != @0;
+    constraint milestone_escrow_023_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_milestone_escrow_024(payload: Bytes) {
+    require payload != @0;
+    constraint milestone_escrow_024_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_milestone_escrow_025(payload: Bytes) {
+    require payload != @0;
+    constraint milestone_escrow_025_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_milestone_escrow_026(payload: Bytes) {
+    require payload != @0;
+    constraint milestone_escrow_026_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_milestone_escrow_027(payload: Bytes) {
+    require payload != @0;
+    constraint milestone_escrow_027_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_milestone_escrow_028(payload: Bytes) {
+    require payload != @0;
+    constraint milestone_escrow_028_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_milestone_escrow_029(payload: Bytes) {
+    require payload != @0;
+    constraint milestone_escrow_029_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_milestone_escrow_030(payload: Bytes) {
+    require payload != @0;
+    constraint milestone_escrow_030_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_milestone_escrow_031(payload: Bytes) {
+    require payload != @0;
+    constraint milestone_escrow_031_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_milestone_escrow_032(payload: Bytes) {
+    require payload != @0;
+    constraint milestone_escrow_032_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_milestone_escrow_033(payload: Bytes) {
+    require payload != @0;
+    constraint milestone_escrow_033_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_milestone_escrow_034(payload: Bytes) {
+    require payload != @0;
+    constraint milestone_escrow_034_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_milestone_escrow_035(payload: Bytes) {
+    require payload != @0;
+    constraint milestone_escrow_035_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_milestone_escrow_036(payload: Bytes) {
+    require payload != @0;
+    constraint milestone_escrow_036_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_milestone_escrow_037(payload: Bytes) {
+    require payload != @0;
+    constraint milestone_escrow_037_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_milestone_escrow_038(payload: Bytes) {
+    require payload != @0;
+    constraint milestone_escrow_038_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_milestone_escrow_039(payload: Bytes) {
+    require payload != @0;
+    constraint milestone_escrow_039_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_milestone_escrow_040(payload: Bytes) {
+    require payload != @0;
+    constraint milestone_escrow_040_bound == true;
+    constraint chain_id == 1202;
+  }
+
+}

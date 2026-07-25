@@ -1,0 +1,176 @@
+// Moniversive Invariant Static (MIS) — deep root
+// Creator: Chandler William Ferguson
+// Letter-hash + EMBED gates 3..=6 · settlement clrty-1 / chain 1202
+// Compile: bin/misc <file>.mis --check --compact-letters
+// Title: Superteam Grants Program · ReleaseGate
+
+module SuperteamGrantsProgramReleaseGate {
+
+  embed gates 3..=6 {
+    context: "ReleaseGate pack on MIS domain superteam_grants — CLRTY-1";
+    ai: "Index via mis_code_index + moniversive_invariant_static_ML";
+    execution: "assert_pack; assert_each; settle_clrty1";
+    capital: "Settlement clrty-1 / chain 1202 · Creator Chandler William Ferguson";
+  }
+
+  invariant letter_hash_bound: letter_hash_root != @0;
+  invariant embed_gates_present: embed_root != @0;
+  invariant deep_root_moniversive: deep_root == moniversive;
+  invariant settlement_chain: chain_id == 1202;
+  invariant settlement_network_clrty1: settlement_network == clrty_1;
+  invariant kernel_is_misc: compiler_kernel == misc;
+  invariant pack_release_gate_bound: pack_bound == true;
+  invariant catalog_backlink: mis_catalog_bound == true;
+
+  invariant release_gate_061: release_gate_061_bound == true;
+  invariant release_gate_062: release_gate_062_bound == true;
+  invariant release_gate_063: release_gate_063_bound == true;
+  invariant release_gate_064: release_gate_064_bound == true;
+  invariant release_gate_065: release_gate_065_bound == true;
+  invariant release_gate_066: release_gate_066_bound == true;
+  invariant release_gate_067: release_gate_067_bound == true;
+  invariant release_gate_068: release_gate_068_bound == true;
+  invariant release_gate_069: release_gate_069_bound == true;
+  invariant release_gate_070: release_gate_070_bound == true;
+  invariant release_gate_071: release_gate_071_bound == true;
+  invariant release_gate_072: release_gate_072_bound == true;
+  invariant release_gate_073: release_gate_073_bound == true;
+  invariant release_gate_074: release_gate_074_bound == true;
+  invariant release_gate_075: release_gate_075_bound == true;
+  invariant release_gate_076: release_gate_076_bound == true;
+  invariant release_gate_077: release_gate_077_bound == true;
+  invariant release_gate_078: release_gate_078_bound == true;
+  invariant release_gate_079: release_gate_079_bound == true;
+  invariant release_gate_080: release_gate_080_bound == true;
+
+  outcome assert_pack(payload: Bytes) {
+    require payload != @0;
+    constraint pack_bound == true;
+  }
+
+  outcome settle_clrty1(intent: Bytes) {
+    require intent != @0;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_release_gate_061(payload: Bytes) {
+    require payload != @0;
+    constraint release_gate_061_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_release_gate_062(payload: Bytes) {
+    require payload != @0;
+    constraint release_gate_062_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_release_gate_063(payload: Bytes) {
+    require payload != @0;
+    constraint release_gate_063_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_release_gate_064(payload: Bytes) {
+    require payload != @0;
+    constraint release_gate_064_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_release_gate_065(payload: Bytes) {
+    require payload != @0;
+    constraint release_gate_065_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_release_gate_066(payload: Bytes) {
+    require payload != @0;
+    constraint release_gate_066_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_release_gate_067(payload: Bytes) {
+    require payload != @0;
+    constraint release_gate_067_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_release_gate_068(payload: Bytes) {
+    require payload != @0;
+    constraint release_gate_068_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_release_gate_069(payload: Bytes) {
+    require payload != @0;
+    constraint release_gate_069_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_release_gate_070(payload: Bytes) {
+    require payload != @0;
+    constraint release_gate_070_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_release_gate_071(payload: Bytes) {
+    require payload != @0;
+    constraint release_gate_071_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_release_gate_072(payload: Bytes) {
+    require payload != @0;
+    constraint release_gate_072_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_release_gate_073(payload: Bytes) {
+    require payload != @0;
+    constraint release_gate_073_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_release_gate_074(payload: Bytes) {
+    require payload != @0;
+    constraint release_gate_074_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_release_gate_075(payload: Bytes) {
+    require payload != @0;
+    constraint release_gate_075_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_release_gate_076(payload: Bytes) {
+    require payload != @0;
+    constraint release_gate_076_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_release_gate_077(payload: Bytes) {
+    require payload != @0;
+    constraint release_gate_077_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_release_gate_078(payload: Bytes) {
+    require payload != @0;
+    constraint release_gate_078_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_release_gate_079(payload: Bytes) {
+    require payload != @0;
+    constraint release_gate_079_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_release_gate_080(payload: Bytes) {
+    require payload != @0;
+    constraint release_gate_080_bound == true;
+    constraint chain_id == 1202;
+  }
+
+}
