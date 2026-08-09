@@ -1,4 +1,4 @@
-# Superteam Grants Program
+# Grants Program
 
 > **Moniversive Invariant Static (MIS)** module · settles on **CLRTY-1** (chain **1202**) · compiler **`misc`**  
 > Creator **Chandler William Ferguson** · Org [`clarity-fintech/superteam-grants-program`](https://github.com/clarity-fintech/superteam-grants-program)
